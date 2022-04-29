@@ -1,14 +1,20 @@
-name: Lint
+name: Black check
 
 on: [push, pull_request]
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
+  black-check:
+    runs-on: ubuntu-18.04
+    name: Black
     steps:
       - uses: actions/checkout@v2
-      - uses: psf/black@stable
+      - name: Set up Python
+        uses: actions/setup-python@master
         with:
-          options: "--check --verbose"
-          src: "./janus"
-          version: "21.5b1"
+          python-version: 3.8
+      - name: install black
+        run: |
+          pip install black==22.3.0
+      - name: run black
+        run: |
+          black . --check --line-length 100
