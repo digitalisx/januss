@@ -16,4 +16,4 @@ jobs:
       - name: flake8 Lint
         uses: reviewdog/action-flake8@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }
+          github_token: ${{ secrets.GITHUB_TOKEN }}
