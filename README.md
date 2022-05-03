@@ -3,6 +3,9 @@
 <p align="center">
   <em>Malware Analysis by Memory Comparison</em>
 </p>
+<p align='center'>
+  <a href="https://bestpractices.coreinfrastructure.org/projects/6024"><img src="https://bestpractices.coreinfrastructure.org/projects/6024/badge"></a>
+</p>
 
 ## Introduction
 
