@@ -3,14 +3,21 @@
 <p align="center">
   <em>Malware Analysis by Memory Comparison</em>
 </p>
+<p align='center'>
+  <a href="https://bestpractices.coreinfrastructure.org/projects/6024"><img src="https://bestpractices.coreinfrastructure.org/projects/6024/badge"></a>
+</p>
 
 ## Introduction
 
 This project inherits [VolDiff](https://github.com/H2Cyber/VolDiff)'s concept.
 
-## Install
+## Quickstart
+
+
 
 ## Contribution
+
+We welcome any contribution to the extent that Code of Conduct and the License comply. Please refer to the document for a detailed guide.
 
 ## License
 
